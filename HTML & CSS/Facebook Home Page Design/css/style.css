@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;font-family: Arial, Helvetica, sans-serif;box-sizing: border-box;}
 body{background: #efefef;}
 /* =============== Nav Section Start =============== */
-nav{display: flex;align-items: center;justify-content: space-between;background: #1876f2;padding: 5px 5%;}
+nav{display: flex;align-items: center;justify-content: space-between;background: #1876f2;padding: 5px 5%;position: sticky;top: 0;z-index: 100;}
 /*Nav Left Start*/
 .logo{width: 160px;margin-right: 45px;cursor: pointer;}
 .nav-left{display: flex;align-items: center;}
@@ -87,6 +87,10 @@ nav{display: flex;align-items: center;justify-content: space-between;background:
 .post-container .post-row a{color: #9a9a9a;}
 /* Post Container End */
 
+/* Show More Button Start */
+.show-more-button{display: block;margin: auto;cursor: pointer;padding: 5px 10px;border: 1px solid #9a9a9a;color: #626262;
+    background: transparent;border-radius: 5px;}
+/* Show More Button End */
 
 /* =============== Main Content End =============== */
 
