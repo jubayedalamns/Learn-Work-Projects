@@ -16,4 +16,12 @@ nav{padding: 10px 2%;justify-content: space-between;box-shadow: 0 0 10px rgba(0,
 .nav-left img:last-child{width: 130px;}
 /* Nav Left End */
 
+/* Nav Middle Start */
+
+/* Nav Middle End */
+
+/* Nav Rignt Start */
+.nav-right img{width: 25px;margin-right: 25px;}
+.nav-right img:last-child{width: 35px;margin-right: 0px;border-radius: 10px;}
+/* Nav Rignt End */
 /* ==================== Nav Section End ==================== */
