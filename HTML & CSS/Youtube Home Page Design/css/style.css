@@ -62,3 +62,16 @@ nav{padding: 10px 2%;justify-content: space-between;box-shadow: 0 0 10px rgba(0,
 .vid-list .vid-info a{color: #000;font-weight: 600;display: block;margin-bottom: 5px;}
 /*Video Show List End*/
 /* ==================== Main Container Section End ==================== */
+
+/* ==================== Responsive Start ==================== */
+@media(max-width:900px){
+    .menu-icon{display: none;}
+    .sidebar{display: none;}
+    .container, .large-container{padding-left: 5%;padding-right: 5%;}
+    .nav-right img{display: none;}
+    .nav-right .user-icon{display: block;width: 30px;}
+    .nav-middle .search-box input{width: 100px;}
+    .nav-middle .mic-icon{display: none;}
+    .logo{width: 90px;}
+}
+/* ==================== Responsive End ==================== */
