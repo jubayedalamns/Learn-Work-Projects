@@ -62,3 +62,11 @@ header h1{font-weight: 500;color: #fff;text-align: center;padding-top: 20%;font-
 .container .about-msg h2{font-size: 28px;margin-bottom: 30px;font-weight: 500;}
 /* About Message End */
 /* ==================== Main Container Section End ==================== */
+
+/* ==================== Footer Section Start ==================== */
+footer{padding: 0 7%;}
+footer .icon-links{margin: 80px 0 10px;text-align: center;}
+footer .icon-links a{text-decoration: none;color: #999;font-size: 22px;margin: 0 10px;}
+footer .icon-links hr{background: #999;height: 1px;width: 100%;border: 0;margin: 20px 0;}
+footer .icon-links p{margin-bottom: 20px;}
+/* ==================== Footer Section End ==================== */
